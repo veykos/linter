@@ -1,0 +1,42 @@
+{
+  "name": "linter",
+  "version": "1.0.0",
+  "description": "A JS/TS Linter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint . --fix --ext .js,.jsx,.ts,.tsx"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/veykos/linter.git"
+  },
+  "keywords": [
+    "lint",
+    "js",
+    "ts"
+  ],
+  "author": "Pavel Popov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/veykos/linter/issues"
+  },
+  "homepage": "https://github.com/veykos/linter#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^7.0.2",
+    "@typescript-eslint/parser": "^7.0.2",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-prettier": "^5.1.3",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-simple-import-sort": "^12.0.0",
+    "eslint-plugin-sonarjs": "^0.24.0",
+    "eslint-plugin-sort-destructure-keys": "^1.5.0",
+    "eslint-plugin-unicorn": "^51.0.1",
+    "prettier": "^3.2.5"
+  }
+}
